@@ -33,11 +33,9 @@ To set up this project you should install the following:
 - Build and run the project on your Android device or emulator.
 
 ## Screenshots
-### Home Page
-![Example screenshot](Screenshots/home.png)
-### Admin dashboard 
-![Example screenshot](Screenshots/Dashboard.png)
-### Blog page
-![Example screenshot](Screenshots/Blog.png)
-### Consultations page
-![Example screenshot](Screenshots/consultations.png)
+<p align="center">
+  <img src="screenshot1.png" width="200" />
+  <img src="screenshot2.png" width="200" />
+  <img src="screenshot3.png" width="200" />
+</p>
+

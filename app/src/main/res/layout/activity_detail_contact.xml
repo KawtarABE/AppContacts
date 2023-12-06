@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".DetailContact"
+    >
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/shape_toolbar02">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_below="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc@gmail.com"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/no_favourite"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/favori"
+            />
+
+        <ImageView
+            android:id="@+id/favourite"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/real_favori"
+            />
+
+        <ImageView
+            android:id="@+id/no_recommended"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/empty_star"
+            />
+
+        <ImageView
+            android:id="@+id/recommended"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/full_star"
+            />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/share"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/section2"
+    android:layout_width="411dp"
+    android:layout_height="700dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <ImageView
+            android:id="@+id/imgUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_profil"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_marginLeft="-135dp"/>
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:hint="Contact's name"
+        android:textColorHint="#9E9E9E"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Email"
+        android:textSize="20sp"
+        android:layout_marginLeft="-140dp"/>
+
+    <EditText
+        android:id="@+id/contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:hint="Contact's email"
+        android:textColorHint="#9E9E9E"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Number"
+        android:textSize="20sp"
+        android:layout_marginLeft="-130dp"/>
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:hint="Contact's number"
+        android:textColorHint="#9E9E9E"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Service"
+        android:textSize="20sp"
+        android:layout_marginLeft="-135dp"/>
+
+    <EditText
+        android:id="@+id/contact_service"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:hint="Contact's number"
+        android:textColorHint="#9E9E9E"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/login_password"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/cursor_color"
+        android:text="Return"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        ></Button>
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/login_password"
+        android:layout_marginLeft="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-49dp"
+        android:background="@drawable/cursor_color"
+        android:padding="5dp"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+</LinearLayout>
+</LinearLayout>

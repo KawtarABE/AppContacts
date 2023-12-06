@@ -34,8 +34,10 @@ To set up this project you should install the following:
 
 ## Screenshots
 <p align="center">
-  <img src="screenshot1.png" width="200" />
-  <img src="screenshot2.png" width="200" />
-  <img src="screenshot3.png" width="200" />
+  <img src="1.png" width="200" />
+  <img src="2.png" width="200" />
+  <img src="3.png" width="200" />
+  <img src="4.png" width="200" />
+  <img src="5.png" width="200" />
 </p>
 

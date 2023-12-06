@@ -27,10 +27,8 @@ To set up this project you should install the following:
 - Android Studio
 
 ### Usage
-- Clone the repository:
-'''
-git clone https://github.com/your-username/AppContacts.git
-''''
+- Clone the repository
+  `git clone https://github.com/your-username/AppContacts.git`
 - Open the project in Android Studio.
 - Build and run the project on your Android device or emulator.
 

@@ -34,10 +34,10 @@ To set up this project you should install the following:
 
 ## Screenshots
 <p align="center">
-  <img src="1.jpg" width="200" />
-  <img src="2.jpg" width="200" />
-  <img src="3.jpg" width="200" />
-  <img src="4.jpg" width="200" />
-  <img src="5.jpg" width="200" />
+  <img src="/Screenshots/1.jpg" width="200" />
+  <img src="/Screenshots/2.jpg" width="200" />
+  <img src="/Screenshots/3.jpg" width="200" />
+  <img src="/Screenshots/4.jpg" width="200" />
+  <img src="/Screenshots/5.jpg" width="200" />
 </p>
 
